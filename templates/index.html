@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path Visualizer - Plan Your Professional Journey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-route"></i>
+                <span>Career Path Visualizer</span>
+            </div>
+            <nav>
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Plan Your Professional Journey</h1>
+                <p class="subtitle">Enter your dream job role to get a visual skill roadmap and free learning resources</p>
+                
+                <form id="role-form" class="hero-form">
+                    <div class="form-group">
+                        <div class="input-container">
+                            <i class="fas fa-briefcase input-icon"></i>
+                            <input type="text" id="role" placeholder="e.g., Data Analyst, UX Designer, DevOps Engineer" required autocomplete="off">
+                            <div id="suggestions-dropdown" class="suggestions-dropdown"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                            Generate Roadmap
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="roadmap-container" class="roadmap-section hidden">
+            <div class="container">
+                <div class="roadmap-header">
+                    <div>
+                        <h2 id="role-title"></h2>
+                        <p class="subtitle">Your personalized career development plan</p>
+                    </div>
+                    <div class="actions">
+                        <button id="save-btn" class="btn btn-secondary">
+                            <i class="fas fa-save"></i>
+                            Save Progress
+                        </button>
+                        <button id="export-btn" class="btn btn-secondary">
+                            <i class="fas fa-file-pdf"></i>
+                            Export as PDF
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="roadmap-tabs">
+                    <button class="tab-btn active" data-tab="skills">
+                        <i class="fas fa-project-diagram"></i> Skill Roadmap
+                    </button>
+                    <button class="tab-btn" data-tab="progression">
+                        <i class="fas fa-sitemap"></i> Career Progression
+                    </button>
+                </div>
+                
+                <div class="tab-content active" id="skills-tab">
+                    <div class="roadmap-content">
+                        <div class="graph-container card">
+                            <div class="card-header">
+                                <h3><i class="fas fa-project-diagram"></i> Skill Roadmap</h3>
+                                <p class="card-subtitle">Click on any skill to see learning resources</p>
+                            </div>
+                            <div id="skill-graph"></div>
+                        </div>
+                        
+                        <div class="skill-details card">
+                            <div class="card-header">
+                                <h3><i class="fas fa-info-circle"></i> Skill Details</h3>
+                                <p class="card-subtitle">Select a skill to view details</p>
+                            </div>
+                            <div id="skill-info">
+                                <div class="empty-state">
+                                    <i class="fas fa-mouse-pointer"></i>
+                                    <p>Click on a skill in the roadmap to view details and learning resources</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="progression-tab">
+                    <div class="progression-timeline">
+                        <div class="timeline">
+                            <!-- Timeline items will be generated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="courses-modal" class="modal hidden">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3><i class="fas fa-graduation-cap"></i> Learning Resources</h3>
+                            <button id="close-courses" class="btn-close">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="courses-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Career Path Visualizer</h4>
+                    <p>Plan your professional journey with personalized skill roadmaps and learning resources.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Career Guides</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Career Path Visualizer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='vis.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='html2pdf.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

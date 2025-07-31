@@ -1,0 +1,527 @@
+{
+  "Data Analyst": {
+    "skills": ["Excel", "SQL", "Python", "Tableau", "Statistics", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Excel": [],
+      "SQL": ["Excel"],
+      "Python": ["SQL", "Statistics"],
+      "Tableau": ["SQL", "Excel"],
+      "Statistics": ["Excel"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Data Analyst", "Data Analyst", "Senior Data Analyst", "Data Scientist", "Data Science Manager"]
+  },
+  "Web Developer": {
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Communication", "Problem Solving"],
+    "dependencies": {
+      "HTML": [],
+      "CSS": ["HTML"],
+      "JavaScript": ["HTML", "CSS"],
+      "React": ["JavaScript"],
+      "Node.js": ["JavaScript"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Web Developer", "Web Developer", "Senior Web Developer", "Full Stack Developer", "Lead Developer"]
+  },
+  "Full Stack Developer": {
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Python", "SQL", "MongoDB", "Communication", "Problem Solving"],
+    "dependencies": {
+      "HTML": [],
+      "CSS": ["HTML"],
+      "JavaScript": ["HTML", "CSS"],
+      "React": ["JavaScript"],
+      "Node.js": ["JavaScript"],
+      "Python": ["JavaScript"],
+      "SQL": ["Python"],
+      "MongoDB": ["JavaScript", "Node.js"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Full Stack Developer", "Full Stack Developer", "Senior Full Stack Developer", "Full Stack Architect", "Engineering Manager"]
+  },
+  "UX Designer": {
+    "skills": ["Figma", "Adobe XD", "User Research", "Prototyping", "UI Design", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Figma": [],
+      "Adobe XD": [],
+      "User Research": [],
+      "Prototyping": ["Figma", "Adobe XD"],
+      "UI Design": ["Figma", "Adobe XD"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior UX Designer", "UX Designer", "Senior UX Designer", "UX Lead", "Design Director"]
+  },
+  "DevOps Engineer": {
+    "skills": ["Linux", "AWS", "Docker", "Kubernetes", "CI/CD", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Linux": [],
+      "AWS": ["Linux"],
+      "Docker": ["Linux"],
+      "Kubernetes": ["Docker"],
+      "CI/CD": ["Linux", "Docker"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior DevOps Engineer", "DevOps Engineer", "Senior DevOps Engineer", "DevOps Architect", "DevOps Manager"]
+  },
+  "Data Scientist": {
+    "skills": ["Python", "R", "SQL", "Machine Learning", "Statistics", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Python": [],
+      "R": [],
+      "SQL": ["Python", "R"],
+      "Machine Learning": ["Python", "R", "Statistics"],
+      "Statistics": ["Python", "R"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Data Scientist", "Data Scientist", "Senior Data Scientist", "Principal Data Scientist", "Data Science Manager"]
+  },
+  "Product Manager": {
+    "skills": ["Communication", "Leadership", "Market Research", "Data Analysis", "Project Management", "Problem Solving"],
+    "dependencies": {
+      "Communication": [],
+      "Leadership": ["Communication"],
+      "Market Research": ["Communication"],
+      "Data Analysis": ["Market Research"],
+      "Project Management": ["Leadership", "Communication"],
+      "Problem Solving": []
+    },
+    "progression": ["Associate Product Manager", "Product Manager", "Senior Product Manager", "Director of Product", "VP of Product"]
+  },
+  "Software Engineer": {
+    "skills": ["Programming", "Data Structures", "Algorithms", "System Design", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Programming": [],
+      "Data Structures": ["Programming"],
+      "Algorithms": ["Data Structures"],
+      "System Design": ["Algorithms", "Data Structures"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Software Engineer", "Software Engineer", "Senior Software Engineer", "Staff Engineer", "Principal Engineer"]
+  },
+  "Machine Learning Engineer": {
+    "skills": ["Python", "Machine Learning", "Deep Le-arning", "TensorFlow", "PyTorch", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Python": [],
+      "Machine Learning": ["Python"],
+      "Deep Learning": ["Machine Learning"],
+      "TensorFlow": ["Python", "Machine Learning"],
+      "PyTorch": ["Python", "Machine Learning"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior ML Engineer", "ML Engineer", "Senior ML Engineer", "ML Architect", "ML Manager"]
+  },
+  "Frontend Developer": {
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Angular", "Vue.js", "Communication", "Problem Solving"],
+    "dependencies": {
+      "HTML": [],
+      "CSS": ["HTML"],
+      "JavaScript": ["HTML", "CSS"],
+      "React": ["JavaScript"],
+      "Angular": ["JavaScript"],
+      "Vue.js": ["JavaScript"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Frontend Developer", "Frontend Developer", "Senior Frontend Developer", "Frontend Architect", "Lead Frontend Developer"]
+  },
+  "Backend Developer": {
+    "skills": ["Python", "Java", "Node.js", "SQL", "NoSQL", "API Design", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Python": [],
+      "Java": [],
+      "Node.js": ["JavaScript"],
+      "SQL": ["Python", "Java"],
+      "NoSQL": ["Python", "Java"],
+      "API Design": ["Python", "Java", "Node.js"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Backend Developer", "Backend Developer", "Senior Backend Developer", "Backend Architect", "Lead Backend Developer"]
+  },
+  "Mobile Developer": {
+    "skills": ["Swift", "Kotlin", "React Native", "Flutter", "Mobile UI/UX", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Swift": [],
+      "Kotlin": [],
+      "React Native": ["JavaScript"],
+      "Flutter": ["Dart"],
+      "Mobile UI/UX": ["Swift", "Kotlin"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Mobile Developer", "Mobile Developer", "Senior Mobile Developer", "Mobile Architect", "Lead Mobile Developer"]
+  },
+  "Data Engineer": {
+    "skills": ["Python", "SQL", "NoSQL", "ETL", "Big Data", "Cloud Computing", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Python": [],
+      "SQL": ["Python"],
+      "NoSQL": ["Python"],
+      "ETL": ["Python", "SQL"],
+      "Big Data": ["Python", "SQL"],
+      "Cloud Computing": ["Python"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Data Engineer", "Data Engineer", "Senior Data Engineer", "Data Architect", "Data Engineering Manager"]
+  },
+  "Cloud Engineer": {
+    "skills": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Infrastructure as Code", "Communication", "Problem Solving"],
+    "dependencies": {
+      "AWS": [],
+      "Azure": [],
+      "Google Cloud": [],
+      "Docker": [],
+      "Kubernetes": ["Docker"],
+      "Infrastructure as Code": ["AWS", "Azure", "Google Cloud"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Cloud Engineer", "Cloud Engineer", "Senior Cloud Engineer", "Cloud Architect", "Cloud Engineering Manager"]
+  },
+  "Cybersecurity Analyst": {
+    "skills": ["Network Security", "Cryptography", "Ethical Hacking", "Security Tools", "Risk Assessment", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Network Security": [],
+      "Cryptography": ["Network Security"],
+      "Ethical Hacking": ["Network Security"],
+      "Security Tools": ["Network Security"],
+      "Risk Assessment": ["Network Security"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Cybersecurity Analyst", "Cybersecurity Analyst", "Senior Cybersecurity Analyst", "Security Engineer", "Security Manager"]
+  },
+  "Business Analyst": {
+    "skills": ["Communication", "Requirements Gathering", "Data Analysis", "Process Modeling", "Stakeholder Management", "Problem Solving"],
+    "dependencies": {
+      "Communication": [],
+      "Requirements Gathering": ["Communication"],
+      "Data Analysis": ["Communication"],
+      "Process Modeling": ["Communication"],
+      "Stakeholder Management": ["Communication"],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Business Analyst", "Business Analyst", "Senior Business Analyst", "Business Analysis Manager", "Director of Business Analysis"]
+  },
+  "Project Manager": {
+    "skills": ["Project Management", "Communication", "Leadership", "Risk Management", "Agile", "Problem Solving"],
+    "dependencies": {
+      "Project Management": [],
+      "Communication": [],
+      "Leadership": ["Communication"],
+      "Risk Management": ["Project Management"],
+      "Agile": ["Project Management"],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Project Manager", "Project Manager", "Senior Project Manager", "Program Manager", "Director of Project Management"]
+  },
+  "Marketing Manager": {
+    "skills": ["Marketing Strategy", "Digital Marketing", "Data Analysis", "Communication", "Leadership", "Problem Solving"],
+    "dependencies": {
+      "Marketing Strategy": [],
+      "Digital Marketing": ["Marketing Strategy"],
+      "Data Analysis": ["Marketing Strategy"],
+      "Communication": [],
+      "Leadership": ["Communication"],
+      "Problem Solving": []
+    },
+    "progression": ["Marketing Coordinator", "Marketing Manager", "Senior Marketing Manager", "Marketing Director", "VP of Marketing"]
+  },
+  "Sales Manager": {
+    "skills": ["Sales Strategy", "Communication", "Leadership", "CRM", "Negotiation", "Problem Solving"],
+    "dependencies": {
+      "Sales Strategy": [],
+      "Communication": [],
+      "Leadership": ["Communication"],
+      "CRM": ["Sales Strategy"],
+      "Negotiation": ["Communication"],
+      "Problem Solving": []
+    },
+    "progression": ["Sales Representative", "Sales Manager", "Senior Sales Manager", "Sales Director", "VP of Sales"]
+  },
+  "HR Manager": {
+    "skills": ["Human Resources", "Communication", "Leadership", "Recruitment", "Employee Relations", "Problem Solving"],
+    "dependencies": {
+      "Human Resources": [],
+      "Communication": [],
+      "Leadership": ["Communication"],
+      "Recruitment": ["Human Resources"],
+      "Employee Relations": ["Human Resources"],
+      "Problem Solving": []
+    },
+    "progression": ["HR Coordinator", "HR Manager", "Senior HR Manager", "HR Director", "VP of HR"]
+  },
+  "Financial Analyst": {
+    "skills": ["Financial Analysis", "Excel", "Accounting", "Data Visualization", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Financial Analysis": [],
+      "Excel": [],
+      "Accounting": ["Financial Analysis"],
+      "Data Visualization": ["Excel"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Financial Analyst", "Financial Analyst", "Senior Financial Analyst", "Finance Manager", "Director of Finance"]
+  },
+  "Content Manager": {
+    "skills": ["Content Strategy", "SEO", "Writing", "Communication", "Project Management", "Problem Solving"],
+    "dependencies": {
+      "Content Strategy": [],
+      "SEO": ["Content Strategy"],
+      "Writing": ["Content Strategy"],
+      "Communication": [],
+      "Project Management": ["Content Strategy"],
+      "Problem Solving": []
+    },
+    "progression": ["Content Writer", "Content Manager", "Senior Content Manager", "Content Director", "VP of Content"]
+  },
+  "UI Designer": {
+    "skills": ["Figma", "Adobe XD", "Sketch", "Typography", "Color Theory", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Figma": [],
+      "Adobe XD": [],
+      "Sketch": [],
+      "Typography": ["Figma", "Adobe XD", "Sketch"],
+      "Color Theory": ["Figma", "Adobe XD", "Sketch"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior UI Designer", "UI Designer", "Senior UI Designer", "UI Lead", "Design Director"]
+  },
+  "Graphic Designer": {
+    "skills": ["Photoshop", "Illustrator", "InDesign", "Typography", "Color Theory", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Photoshop": [],
+      "Illustrator": [],
+      "InDesign": [],
+      "Typography": ["Photoshop", "Illustrator", "InDesign"],
+      "Color Theory": ["Photoshop", "Illustrator", "InDesign"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Graphic Designer", "Graphic Designer", "Senior Graphic Designer", "Art Director", "Creative Director"]
+  },
+  "Game Developer": {
+    "skills": ["Unity", "Unreal Engine", "C#", "C++", "Game Design", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Unity": [],
+      "Unreal Engine": [],
+      "C#": [],
+      "C++": [],
+      "Game Design": ["Unity", "Unreal Engine"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Game Developer", "Game Developer", "Senior Game Developer", "Lead Game Developer", "Game Director"]
+  },
+  "AI Engineer": {
+    "skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Python": [],
+      "Machine Learning": ["Python"],
+      "Deep Learning": ["Machine Learning"],
+      "TensorFlow": ["Python", "Machine Learning"],
+      "PyTorch": ["Python", "Machine Learning"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior AI Engineer", "AI Engineer", "Senior AI Engineer", "AI Architect", "AI Manager"]
+  },
+  "Blockchain Developer": {
+    "skills": ["Solidity", "Ethereum", "Smart Contracts", "Web3", "Cryptography", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Solidity": [],
+      "Ethereum": [],
+      "Smart Contracts": ["Solidity", "Ethereum"],
+      "Web3": ["Solidity", "Ethereum"],
+      "Cryptography": ["Smart Contracts"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Blockchain Developer", "Blockchain Developer", "Senior Blockchain Developer", "Blockchain Architect", "Blockchain Manager"]
+  },
+  "IoT Developer": {
+    "skills": ["Python", "C++", "Arduino", "Raspberry Pi", "Sensor Networks", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Python": [],
+      "C++": [],
+      "Arduino": [],
+      "Raspberry Pi": [],
+      "Sensor Networks": ["Python", "C++"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior IoT Developer", "IoT Developer", "Senior IoT Developer", "IoT Architect", "IoT Manager"]
+  },
+  "QA Engineer": {
+    "skills": ["Testing", "Automation", "Selenium", "API Testing", "Bug Tracking", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Testing": [],
+      "Automation": ["Testing"],
+      "Selenium": ["Automation"],
+      "API Testing": ["Testing"],
+      "Bug Tracking": ["Testing"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior QA Engineer", "QA Engineer", "Senior QA Engineer", "QA Lead", "QA Manager"]
+  },
+  "Systems Administrator": {
+    "skills": ["Linux", "Windows Server", "Networking", "Security", "Virtualization", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Linux": [],
+      "Windows Server": [],
+      "Networking": ["Linux", "Windows Server"],
+      "Security": ["Linux", "Windows Server"],
+      "Virtualization": ["Linux", "Windows Server"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Systems Administrator", "Systems Administrator", "Senior Systems Administrator", "Systems Engineer", "IT Manager"]
+  },
+  "Database Administrator": {
+    "skills": ["SQL", "NoSQL", "Database Design", "Performance Tuning", "Backup & Recovery", "Communication", "Problem Solving"],
+    "dependencies": {
+      "SQL": [],
+      "NoSQL": [],
+      "Database Design": ["SQL", "NoSQL"],
+      "Performance Tuning": ["SQL", "NoSQL"],
+      "Backup & Recovery": ["SQL", "NoSQL"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior DBA", "Database Administrator", "Senior DBA", "Database Architect", "Database Manager"]
+  },
+  "Network Engineer": {
+    "skills": ["Networking", "Cisco", "Security", "Cloud Networking", "Troubleshooting", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Networking": [],
+      "Cisco": ["Networking"],
+      "Security": ["Networking"],
+      "Cloud Networking": ["Networking"],
+      "Troubleshooting": ["Networking"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Network Engineer", "Network Engineer", "Senior Network Engineer", "Network Architect", "Network Manager"]
+  },
+  "Data Visualization Specialist": {
+    "skills": ["Tableau", "Power BI", "D3.js", "Data Analysis", "Storytelling", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Tableau": [],
+      "Power BI": [],
+      "D3.js": ["JavaScript"],
+      "Data Analysis": ["Tableau", "Power BI"],
+      "Storytelling": ["Tableau", "Power BI"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Data Visualization Specialist", "Data Visualization Specialist", "Senior Data Visualization Specialist", "Visualization Lead", "Analytics Manager"]
+  },
+  "BI Developer": {
+    "skills": ["SQL", "Power BI", "Tableau", "Data Warehousing", "ETL", "Communication", "Problem Solving"],
+    "dependencies": {
+      "SQL": [],
+      "Power BI": [],
+      "Tableau": [],
+      "Data Warehousing": ["SQL"],
+      "ETL": ["SQL"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior BI Developer", "BI Developer", "Senior BI Developer", "BI Architect", "BI Manager"]
+  },
+  "Scrum Master": {
+    "skills": ["Agile", "Scrum", "Facilitation", "Communication", "Leadership", "Problem Solving"],
+    "dependencies": {
+      "Agile": [],
+      "Scrum": ["Agile"],
+      "Facilitation": ["Agile"],
+      "Communication": [],
+      "Leadership": ["Communication"],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Scrum Master", "Scrum Master", "Senior Scrum Master", "Agile Coach", "Head of Agile"]
+  },
+  "Technical Writer": {
+    "skills": ["Writing", "Documentation", "Technical Knowledge", "Communication", "Research", "Problem Solving"],
+    "dependencies": {
+      "Writing": [],
+      "Documentation": ["Writing"],
+      "Technical Knowledge": ["Writing"],
+      "Communication": [],
+      "Research": ["Writing"],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Technical Writer", "Technical Writer", "Senior Technical Writer", "Documentation Manager", "Director of Technical Writing"]
+  },
+  "DevRel Engineer": {
+    "skills": ["Communication", "Technical Knowledge", "Content Creation", "Community Management", "Public Speaking", "Problem Solving"],
+    "dependencies": {
+      "Communication": [],
+      "Technical Knowledge": [],
+      "Content Creation": ["Communication"],
+      "Community Management": ["Communication"],
+      "Public Speaking": ["Communication"],
+      "Problem Solving": []
+    },
+    "progression": ["Junior DevRel Engineer", "DevRel Engineer", "Senior DevRel Engineer", "DevRel Manager", "Head of Developer Relations"]
+  },
+  "Solutions Architect": {
+    "skills": ["System Design", "Cloud Computing", "Networking", "Security", "Communication", "Problem Solving"],
+    "dependencies": {
+      "System Design": [],
+      "Cloud Computing": ["System Design"],
+      "Networking": ["System Design"],
+      "Security": ["System Design"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Solutions Architect", "Solutions Architect", "Senior Solutions Architect", "Principal Architect", "Chief Architect"]
+  },
+  "Product Designer": {
+    "skills": ["UX Design", "UI Design", "User Research", "Prototyping", "Communication", "Problem Solving"],
+    "dependencies": {
+      "UX Design": [],
+      "UI Design": ["UX Design"],
+      "User Research": ["UX Design"],
+      "Prototyping": ["UX Design", "UI Design"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Product Designer", "Product Designer", "Senior Product Designer", "Design Lead", "Head of Design"]
+  },
+  "Research Scientist": {
+    "skills": ["Research", "Statistics", "Machine Learning", "Data Analysis", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Research": [],
+      "Statistics": ["Research"],
+      "Machine Learning": ["Statistics"],
+      "Data Analysis": ["Statistics"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior Research Scientist", "Research Scientist", "Senior Research Scientist", "Principal Research Scientist", "Research Director"]
+  },
+  "MLOps Engineer": {
+    "skills": ["Machine Learning", "DevOps", "Python", "Docker", "Kubernetes", "Communication", "Problem Solving"],
+    "dependencies": {
+      "Machine Learning": [],
+      "DevOps": [],
+      "Python": ["Machine Learning"],
+      "Docker": ["DevOps"],
+      "Kubernetes": ["Docker"],
+      "Communication": [],
+      "Problem Solving": []
+    },
+    "progression": ["Junior MLOps Engineer", "MLOps Engineer", "Senior MLOps Engineer", "MLOps Architect", "MLOps Manager"]
+  }
+}

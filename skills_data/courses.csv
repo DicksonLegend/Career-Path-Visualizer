@@ -1,0 +1,245 @@
+skill,course_title,link,platform
+Python,Python for Everybody,https://www.coursera.org/specializations/python,Coursera
+Python,Complete Python Bootcamp,https://www.udemy.com/course/complete-python-bootcamp,Udemy
+Python,Python Crash Course,https://www.youtube.com/watch?v=rfscVS0vtbw,YouTube
+Python,Learn Python 3,https://www.codecademy.com/learn/learn-python-3,Codecademy
+Python,Introduction to Python,https://www.edx.org/course/introduction-to-python-absolute-beginner,edX
+Python,Python for Data Science,https://www.datacamp.com/courses/intro-to-python-for-data-science,DataCamp
+Python,Python Basics,https://www.sololearn.com/learning/1070,SoloLearn
+Python,Python Tutorial,https://www.w3schools.com/python/,W3Schools
+SQL,SQL for Beginners,https://www.coursera.org/learn/sql-for-data-science,Coursera
+SQL,The Complete SQL Bootcamp,https://www.udemy.com/course/the-complete-sql-bootcamp,Udemy
+SQL,SQL Tutorial,https://www.w3schools.com/sql/,W3Schools
+SQL,Learn SQL,https://www.codecademy.com/learn/learn-sql,Codecademy
+SQL,SQL Fundamentals,https://www.pluralsight.com/courses/sql-fundamentals,Pluralsight
+SQL,Introduction to SQL,https://www.edx.org/course/introduction-to-sql,edX
+SQL,SQL for Data Analysis,https://www.datacamp.com/courses/sql-for-data-analysis,DataCamp
+SQL,SQL Basics,https://www.khanacademy.org/computing/computer-programming/sql,Khan Academy
+JavaScript,JavaScript: Understanding the Weird Parts,https://www.udemy.com/course/understand-javascript,Udemy
+JavaScript,JavaScript Algorithms and Data Structures,https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures,freeCodeCamp
+JavaScript,Modern JavaScript From The Beginning,https://www.udemy.com/course/modern-javascript-from-the-beginning,Udemy
+JavaScript,JavaScript.info,https://javascript.info/,Website
+JavaScript,Learn JavaScript,https://www.codecademy.com/learn/introduction-to-javascript,Codecademy
+JavaScript,JavaScript Tutorial,https://www.w3schools.com/js/,W3Schools
+JavaScript,JavaScript Fundamentals,https://www.pluralsight.com/courses/javascript-fundamentals,Pluralsight
+JavaScript,Introduction to JavaScript,https://www.edx.org/course/introduction-to-javascript,edX
+HTML,HTML & CSS: Certification Course for Beginners,https://www.udemy.com/course/html-css-certification,Udemy
+HTML,Learn HTML,https://www.codecademy.com/learn/learn-html,Codecademy
+HTML,HTML Tutorial,https://www.w3schools.com/html/,W3Schools
+HTML,HTML5 Introduction,https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML,MDN Web Docs
+HTML,HTML Basics,https://www.khanacademy.org/computing/computer-programming/html-css,Khan Academy
+HTML,Introduction to HTML,https://www.edx.org/course/html5-and-css-fundamentals,edX
+HTML,HTML Essentials,https://www.youtube.com/watch?v=kUMe1FH4CHE,YouTube
+CSS,Advanced CSS and Sass,https://www.udemy.com/course/advanced-css-and-sass,Udemy
+CSS,Learn CSS,https://www.codecademy.com/learn/learn-css,Codecademy
+CSS,CSS Tutorial,https://www.w3schools.com/css/,W3Schools
+CSS,CSS Reference,https://developer.mozilla.org/en-US/docs/Web/CSS,MDN Web Docs
+CSS,CSS Basics,https://www.khanacademy.org/computing/computer-programming/html-css,Khan Academy
+CSS,Introduction to CSS,https://www.edx.org/course/html5-and-css-fundamentals,edX
+CSS,CSS Crash Course,https://www.youtube.com/watch?v=yfoY53QXEnI,YouTube
+React,React - The Complete Guide,https://www.udemy.com/course/react-the-complete-guide,Udemy
+React,Modern React with Redux,https://www.udemy.com/course/react-redux,Udemy
+React,React Tutorial,https://reactjs.org/tutorial,React Documentation
+React,Learn React,https://scrimba.com/learn/learnreact,Scrimba
+React,React Fundamentals,https://www.pluralsight.com/courses/react-fundamentals,Pluralsight
+React,Introduction to React,https://www.coursera.org/learn/react,edX
+React,React for Beginners,https://www.youtube.com/watch?v=sBws8MSXN7A,YouTube
+Node.js,Node.js, Express, MongoDB & More,https://www.udemy.com/course/nodejs-express-mongodb,Udemy
+Node.js,Learn Node,https://nodejs.org/en/docs/guides/getting-started-guide/,Node.js Documentation
+Node.js,Node.js Tutorial,https://www.w3schools.com/nodejs/,W3Schools
+Node.js,Back-End Web Development with Node.js,https://www.coursera.org/learn/back-end-web-development,Coursera
+Node.js,Introduction to Node.js,https://www.edx.org/course/introduction-to-nodejs,edX
+Node.js,Node.js Basics,https://www.youtube.com/watch?v=TlB_eWDSMt4,YouTube
+Node.js,Node.js Crash Course,https://www.youtube.com/watch?v=f2chF_Gwr_w,YouTube
+Excel,Excel Basics for Data Analysis,https://www.youtube.com/watch?v=8YvfRdRZWU8,YouTube
+Excel,Microsoft Excel - Excel from Beginner to Advanced,https://www.udemy.com/course/microsoft-excel,Udemy
+Excel,Excel Exposure,https://www.excelexposure.com/,Website
+Excel,Learn Excel,https://www.excel-easy.com/,Website
+Excel,Excel Formulas and Functions,https://www.coursera.org/learn/excel-formulas-functions,Coursera
+Excel,Excel for Beginners,https://www.edx.org/course/excel-for-beginners,edX
+Excel,Excel Tutorial,https://www.gcflearnfree.org/excel,GCF Learn Free
+Tableau,Tableau Public Tutorial,https://www.tableau.com/learn/tutorials/on-demand,Tableau
+Tableau,Tableau for Beginners,https://www.udemy.com/course/tableau-for-beginners,Udemy
+Tableau,Data Visualization with Tableau,https://www.coursera.org/specializations/data-visualization,Coursera
+Tableau,Learn Tableau,https://www.datacamp.com/courses/technical-prerequisites-datacamp,DataCamp
+Tableau,Tableau Essentials,https://www.youtube.com/watch?v=0nLwqCgZDw4,YouTube
+Tableau,Introduction to Tableau,https://www.edx.org/course/introduction-to-tableau,edX
+Tableau,Tableau Desktop Specialist,https://www.pluralsight.com/courses/tableau-desktop-specialist,Pluralsight
+Statistics,Statistics with Python,https://www.khanacademy.org/math/statistics-probability,Khan Academy
+Statistics,Intro to Statistics,https://www.udacity.com/course/intro-to-statistics--st101,Udacity
+Statistics,Statistical Thinking for Data Science,https://www.edx.org/course/statistical-thinking-for-data-science-and-analytics,edX
+Statistics,Statistics and Probability,https://www.khanacademy.org/math/statistics-probability,Khan Academy
+Statistics,Introduction to Statistics,https://www.coursera.org/learn/introstats,Coursera
+Statistics,Statistics Fundamentals,https://www.datacamp.com/courses/statistics-fundamentals-with-python,DataCamp
+Statistics,Statistics for Data Science,https://www.youtube.com/watch?v=dQw4w9WgXcQ,YouTube
+Communication,Effective Communication,https://www.coursera.org/learn/communication,Coursera
+Communication,Communication Skills for Bridging Divides,https://www.coursera.org/learn/communication-skills,Coursera
+Communication,Improving Communication Skills,https://www.coursera.org/learn/improving-communication-skills,Coursera
+Communication,Interpersonal Communication,https://www.coursera.org/learn/interpersonal-communication,Coursera
+Communication,Communication in the 21st Century Workplace,https://www.edx.org/course/communication-in-the-21st-century-workplace,edX
+Communication,Effective Business Communication,https://www.udemy.com/course/effective-business-communication,Udemy
+Communication,Communication Skills,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Problem Solving,Problem Solving Techniques,https://www.edx.org/course/problem-solving-techniques,edX
+Problem Solving,Effective Problem-Solving and Decision-Making,https://www.coursera.org/learn/problem-solving,Coursera
+Problem Solving,Creative Problem Solving,https://www.coursera.org/learn/creative-problem-solving,Coursera
+Problem Solving,Problem Solving,https://www.skillsyouneed.com/ps/problem-solving.html,Website
+Problem Solving,Introduction to Problem Solving,https://www.coursera.org/learn/problem-solving,Coursera
+Problem Solving,Problem Solving Skills,https://www.udemy.com/course/problem-solving-skills,Udemy
+Problem Solving,Critical Thinking and Problem Solving,https://www.youtube.com/watch?v=6PlZq5H3d8Q,YouTube
+Machine Learning,Machine Learning,https://www.coursera.org/learn/machine-learning,Coursera
+Machine Learning,Introduction to Machine Learning,https://www.edx.org/course/introduction-to-machine-learning,edX
+Machine Learning,Machine Learning A-Z,https://www.udemy.com/course/machinelearning,Udemy
+Machine Learning,Practical Machine Learning,https://www.datacamp.com/track/machine-learning-scientist-with-python,DataCamp
+Machine Learning,Machine Learning Fundamentals,https://www.pluralsight.com/courses/machine-learning-fundamentals,Pluralsight
+Machine Learning,Machine Learning for Beginners,https://www.youtube.com/watch?v=ukzFI9rgwfU,YouTube
+Machine Learning,Applied Machine Learning,https://www.coursera.org/learn/applied-machine-learning,Coursera
+Machine Learning,Deep Learning Specialization,https://www.coursera.org/specializations/deep-learning,Coursera
+AWS,AWS Certified Solutions Architect,https://www.udemy.com/course/aws-certified-solutions-architect-associate,Udemy
+AWS,AWS Fundamentals,https://www.edx.org/course/aws-fundamentals,edX
+AWS,AWS Technical Essentials,https://www.aws.training/courses,AWS Training
+AWS,AWS for Beginners,https://www.youtube.com/watch?v=ulprqHHZ5xg,YouTube
+AWS,Introduction to AWS,https://www.coursera.org/learn/introduction-to-aws,Coursera
+AWS,AWS Cloud Practitioner,https://www.pluralsight.com/courses/aws-cloud-practitioner,Pluralsight
+AWS,AWS Basics,https://aws.amazon.com/getting-started/,AWS Website
+Docker,Docker for Beginners,https://www.youtube.com/watch?v=p2WHvyyMPqM,YouTube
+Docker,Docker Mastery,https://www.udemy.com/course/docker-mastery,Udemy
+Docker,Introduction to Docker,https://www.edx.org/course/introduction-to-docker,edX
+Docker,Docker Tutorial,https://www.docker.com/get-started,Docker Website
+Docker,Docker for Developers,https://www.pluralsight.com/courses/docker-developers,Pluralsight
+Docker,Docker Fundamentals,https://www.coursera.org/learn/docker-fundamentals,Coursera
+Docker,Docker and Kubernetes,https://www.udemy.com/course/docker-and-kubernetes,Udemy
+Figma,Figma for UI/UX Design,https://www.udemy.com/course/figma,Udemy
+Figma,Figma Tutorial,https://www.figma.com/resources/learn-design,Figma Website
+Figma,Learn Figma,https://www.youtube.com/watch?v=FTFaQWZBqQ8,YouTube
+Figma,Figma for Beginners,https://www.coursera.org/learn/figma,Coursera
+Figma,Figma UI Design,https://www.skillshare.com/en/classes/Figma-UI-Design,Skillshare
+Figma,Figma Essentials,https://www.pluralsight.com/courses/figma-essentials,Pluralsight
+Figma,Figma Crash Course,https://www.youtube.com/watch?v=FTFaQWZBqQ8,YouTube
+Leadership,Leadership Skills,https://www.coursera.org/learn/leadership-skills,Coursera
+Leadership,Strategic Leadership,https://www.edx.org/course/strategic-leadership,edX
+Leadership,Leadership Training,https://www.udemy.com/course/leadership-training,Udemy
+Leadership,Leadership and Influence,https://www.coursera.org/learn/leadership-and-influence,Coursera
+Leadership,Leadership in the 21st Century,https://www.youtube.com/watch?v=6PlZq5H3d8Q,YouTube
+Leadership,Effective Leadership,https://www.pluralsight.com/courses/effective-leadership,Pluralsight
+Leadership,Leadership Development,https://www.coursera.org/specializations/leadership-development,Coursera
+Leadership,Leadership Essentials,https://www.edx.org/course/leadership-essentials,edX
+Project Management,Project Management Principles,https://www.coursera.org/learn/project-management-principles,Coursera
+Project Management,Project Management Foundations,https://www.linkedin.com/learning/project-management-foundations,LinkedIn Learning
+Project Management,PMP Certification,https://www.udemy.com/course/pmp-certification,Udemy
+Project Management,Agile Project Management,https://www.edx.org/course/agile-project-management,edX
+Project Management,Project Management Tutorial,https://www.youtube.com/watch?v=7uT0y3bBqjw,YouTube
+Project Management,Project Management Fundamentals,https://www.pluralsight.com/courses/project-management-fundamentals,Pluralsight
+Project Management,Introduction to Project Management,https://www.coursera.org/learn/introduction-to-project-management,Coursera
+Project Management,Scrum Master Certification,https://www.udemy.com/course/scrum-master-certification,Udemy
+UI Design,UI Design Fundamentals,https://www.coursera.org/learn/ui-design-fundamentals,Coursera
+UI Design,UI/UX Design,https://www.udemy.com/course/ui-ux-design,Udemy
+UI Design,Learn UI Design,https://www.youtube.com/watch?v=5GxXdQcG5s8,YouTube
+UI Design,UI Design Principles,https://www.interaction-design.org/literature/topics/ui-design,Interaction Design Foundation
+UI Design,Introduction to UI Design,https://www.edx.org/course/introduction-to-ui-design,edX
+UI Design,UI Design for Beginners,https://www.skillshare.com/en/classes/UI-Design-for-Beginners,Skillshare
+UI Design,UI Design with Figma,https://www.pluralsight.com/courses/ui-design-figma,Pluralsight
+UI Design,Mobile UI Design,https://www.udemy.com/course/mobile-ui-design,Udemy
+UX Design,UX Design Fundamentals,https://www.coursera.org/learn/ux-design-fundamentals,Coursera
+UX Design,UX Design,https://www.udemy.com/course/ux-design,Udemy
+UX Design,Learn UX Design,https://www.youtube.com/watch?v=5GxXdQcG5s8,YouTube
+UX Design,UX Design Principles,https://www.interaction-design.org/literature/topics/ux-design,Interaction Design Foundation
+UX Design,Introduction to UX Design,https://www.edx.org/course/introduction-to-ux-design,edX
+UX Design,UX Design for Beginners,https://www.skillshare.com/en/classes/UX-Design-for-Beginners,Skillshare
+UX Design,UX Research,https://www.coursera.org/learn/ux-research,Coursera
+UX Design,UX Design Process,https://www.pluralsight.com/courses/ux-design-process,Pluralsight
+Data Visualization,Data Visualization with Tableau,https://www.coursera.org/specializations/data-visualization,Coursera
+Data Visualization,Data Visualization with Python,https://www.datacamp.com/courses/data-visualization-with-python,DataCamp
+Data Visualization,Introduction to Data Visualization,https://www.edx.org/course/introduction-to-data-visualization,edX
+Data Visualization,Data Visualization with D3.js,https://www.udemy.com/course/d3js,Udemy
+Data Visualization,Data Visualization Fundamentals,https://www.pluralsight.com/courses/data-visualization-fundamentals,Pluralsight
+Data Visualization,Data Visualization Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Data Visualization,Data Visualization with R,https://www.coursera.org/learn/data-visualization-with-r,Coursera
+Data Visualization,Interactive Data Visualization,https://www.udemy.com/course/interactive-data-visualization,Udemy
+Big Data,Big Data Fundamentals,https://www.edx.org/course/big-data-fundamentals,edX
+Big Data,Introduction to Big Data,https://www.coursera.org/learn/introduction-to-big-data,Coursera
+Big Data,Big Data Analytics,https://www.udemy.com/course/big-data-analytics,Udemy
+Big Data,Big Data Technologies,https://www.pluralsight.com/courses/big-data-technologies,Pluralsight
+Big Data,Big Data Tutorial,https://www.youtube.com/watch?v=ulprqHHZ5xg,YouTube
+Big Data,Big Data and Hadoop,https://www.coursera.org/learn/big-data-hadoop,Coursera
+Big Data,Big Data Specialization,https://www.coursera.org/specializations/big-data,Coursera
+Big Data,Big Data Essentials,https://www.datacamp.com/tracks/big-data-engineer-with-python,DataCamp
+Data Engineering,Data Engineering Fundamentals,https://www.coursera.org/learn/data-engineering-fundamentals,Coursera
+Data Engineering,Data Engineering with Python,https://www.datacamp.com/tracks/data-engineer-with-python,DataCamp
+Data Engineering,Introduction to Data Engineering,https://www.edx.org/course/introduction-to-data-engineering,edX
+Data Engineering,Data Engineering with Spark,https://www.udemy.com/course/data-engineering-with-spark,Udemy
+Data Engineering,Data Engineering Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Data Engineering,Data Engineering with AWS,https://www.pluralsight.com/courses/data-engineering-with-aws,Pluralsight
+Data Engineering,Data Engineering with Google Cloud,https://www.coursera.org/learn/data-engineering-with-google-cloud,Coursera
+Data Engineering,Data Engineering with Azure,https://www.udemy.com/course/data-engineering-with-azure,Udemy
+DevOps,DevOps Fundamentals,https://www.edx.org/course/devops-fundamentals,edX
+DevOps,Introduction to DevOps,https://www.coursera.org/learn/introduction-to-devops,Coursera
+DevOps,DevOps Certification,https://www.udemy.com/course/devops-certification,Udemy
+DevOps,DevOps Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+DevOps,DevOps with Docker,https://www.pluralsight.com/courses/devops-with-docker,Pluralsight
+DevOps,DevOps with Kubernetes,https://www.udemy.com/course/devops-with-kubernetes,Udemy
+DevOps,DevOps with AWS,https://www.coursera.org/learn/devops-with-aws,Coursera
+DevOps,DevOps with Azure,https://www.edx.org/course/devops-with-azure,edX
+Cloud Computing,Cloud Computing Fundamentals,https://www.edx.org/course/cloud-computing-fundamentals,edX
+Cloud Computing,Introduction to Cloud Computing,https://www.coursera.org/learn/introduction-to-cloud-computing,Coursera
+Cloud Computing,Cloud Computing with AWS,https://www.udemy.com/course/cloud-computing-with-aws,Udemy
+Cloud Computing,Cloud Computing Tutorial,https://www.youtube.com/watch?v=ulprqHHZ5xg,YouTube
+Cloud Computing,Cloud Computing with Azure,https://www.pluralsight.com/courses/cloud-computing-with-azure,Pluralsight
+Cloud Computing,Cloud Computing with Google Cloud,https://www.coursera.org/learn/cloud-computing-with-google-cloud,Coursera
+Cloud Computing,Cloud Computing Security,https://www.edx.org/course/cloud-computing-security,edX
+Cloud Computing,Cloud Computing Architecture,https://www.udemy.com/course/cloud-computing-architecture,Udemy
+Cybersecurity,Cybersecurity Fundamentals,https://www.edx.org/course/cybersecurity-fundamentals,edX
+Cybersecurity,Introduction to Cybersecurity,https://www.coursera.org/learn/introduction-to-cybersecurity,Coursera
+Cybersecurity,Cybersecurity Certification,https://www.udemy.com/course/cybersecurity-certification,Udemy
+Cybersecurity,Cybersecurity Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Cybersecurity,Cybersecurity with Python,https://www.pluralsight.com/courses/cybersecurity-with-python,Pluralsight
+Cybersecurity,Cybersecurity for Beginners,https://www.coursera.org/learn/cybersecurity-for-beginners,Coursera
+Cybersecurity,Cybersecurity Essentials,https://www.edx.org/course/cybersecurity-essentials,edX
+Cybersecurity,Cybersecurity Threats,https://www.udemy.com/course/cybersecurity-threats,Udemy
+Artificial Intelligence,Artificial Intelligence Fundamentals,https://www.edx.org/course/artificial-intelligence-fundamentals,edX
+Artificial Intelligence,Introduction to Artificial Intelligence,https://www.coursera.org/learn/introduction-to-artificial-intelligence,Coursera
+Artificial Intelligence,Artificial Intelligence A-Z,https://www.udemy.com/course/artificial-intelligence-az,Udemy
+Artificial Intelligence,Artificial Intelligence Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Artificial Intelligence,Artificial Intelligence with Python,https://www.pluralsight.com/courses/artificial-intelligence-with-python,Pluralsight
+Artificial Intelligence,Artificial Intelligence for Beginners,https://www.coursera.org/learn/artificial-intelligence-for-beginners,Coursera
+Artificial Intelligence,Artificial Intelligence Essentials,https://www.edx.org/course/artificial-intelligence-essentials,edX
+Artificial Intelligence,Artificial Intelligence Applications,https://www.udemy.com/course/artificial-intelligence-applications,Udemy
+Deep Learning,Deep Learning Specialization,https://www.coursera.org/specializations/deep-learning,Coursera
+Deep Learning,Introduction to Deep Learning,https://www.edx.org/course/introduction-to-deep-learning,edX
+Deep Learning,Deep Learning with Python,https://www.udemy.com/course/deep-learning-with-python,Udemy
+Deep Learning,Deep Learning Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Deep Learning,Deep Learning with TensorFlow,https://www.pluralsight.com/courses/deep-learning-with-tensorflow,Pluralsight
+Deep Learning,Deep Learning for Beginners,https://www.coursera.org/learn/deep-learning-for-beginners,Coursera
+Deep Learning,Deep Learning Essentials,https://www.edx.org/course/deep-learning-essentials,edX
+Deep Learning,Deep Learning with PyTorch,https://www.udemy.com/course/deep-learning-with-pytorch,Udemy
+Natural Language Processing,Natural Language Processing Specialization,https://www.coursera.org/specializations/natural-language-processing,Coursera
+Natural Language Processing,Introduction to Natural Language Processing,https://www.edx.org/course/introduction-to-natural-language-processing,edX
+Natural Language Processing,Natural Language Processing with Python,https://www.udemy.com/course/natural-language-processing-with-python,Udemy
+Natural Language Processing,Natural Language Processing Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Natural Language Processing,Natural Language Processing with TensorFlow,https://www.pluralsight.com/courses/natural-language-processing-with-tensorflow,Pluralsight
+Natural Language Processing,Natural Language Processing for Beginners,https://www.coursera.org/learn/natural-language-processing-for-beginners,Coursera
+Natural Language Processing,Natural Language Processing Essentials,https://www.edx.org/course/natural-language-processing-essentials,edX
+Natural Language Processing,Natural Language Processing with PyTorch,https://www.udemy.com/course/natural-language-processing-with-pytorch,Udemy
+Computer Vision,Computer Vision Fundamentals,https://www.edx.org/course/computer-vision-fundamentals,edX
+Computer Vision,Introduction to Computer Vision,https://www.coursera.org/learn/introduction-to-computer-vision,Coursera
+Computer Vision,Computer Vision with Python,https://www.udemy.com/course/computer-vision-with-python,Udemy
+Computer Vision,Computer Vision Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Computer Vision,Computer Vision with OpenCV,https://www.pluralsight.com/courses/computer-vision-with-opencv,Pluralsight
+Computer Vision,Computer Vision for Beginners,https://www.coursera.org/learn/computer-vision-for-beginners,Coursera
+Computer Vision,Computer Vision Essentials,https://www.edx.org/course/computer-vision-essentials,edX
+Computer Vision,Computer Vision with TensorFlow,https://www.udemy.com/course/computer-vision-with-tensorflow,Udemy
+Blockchain,Blockchain Fundamentals,https://www.edx.org/course/blockchain-fundamentals,edX
+Blockchain,Introduction to Blockchain,https://www.coursera.org/learn/introduction-to-blockchain,Coursera
+Blockchain,Blockchain Technology,https://www.udemy.com/course/blockchain-technology,Udemy
+Blockchain,Blockchain Tutorial,https://www.youtube.com/watch?v=SSo_EIwHSd4,YouTube
+Blockchain,Blockchain with Python,https://www.pluralsight.com/courses/blockchain-with-python,Pluralsight
+Blockchain,Blockchain for Beginners,https://www.coursera.org/learn/blockchain-for-beginners,Coursera
+Blockchain,Blockchain Essentials,https://www.edx.org/course/blockchain-essentials,edX
+Blockchain,Blockchain Development,https://www.udemy.com/course/blockchain-development,Udemy
+Internet of Things,Internet of Things Fundamentals,https://www.edx.org/course/internet-of-things-fundamentals,edX
+Internet of Things,Introduction to Internet of Things,https://www.coursera.org/learn/introduction-to-internet-of-things,Coursera
+Internet of Things,Internet of Things with Python,https://www.udemy.com/course/internet-of-things-with-python,Udemy
+Internet of Things,Internet of Things Tutorial,https://www.youtube.com/watch?v=3dRj9h0qZK0,YouTube
+Internet of Things,Internet of Things with Arduino,https://www.pluralsight.com/courses/internet-of-things-with-arduino,Pluralsight
+Internet of Things,Internet of Things for Beginners,https://www.coursera.org/learn/internet-of-things-for-beginners,Coursera
+Internet of Things,Internet of Things Essentials,https://www.edx.org/course/internet-of-things-essentials,edX
+Internet of Things,Internet of Things with Raspberry Pi,https://www.udemy.com/course/internet-of-things-with-raspberry-pi,Udemy
