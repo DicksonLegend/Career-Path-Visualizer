@@ -199,7 +199,6 @@ def extract_skills_from_title(job_title):
                     # If skill not found in categories, assign basic dependencies
                     dependencies[skill] = [s for s in ['Communication', 'Problem Solving'] if s and s in matched_skills]
         
-        # Generate career progression
         progression = [
             f"Junior {job_title}",
             job_title,
