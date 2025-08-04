@@ -28,6 +28,67 @@ except Exception as e:
     print(f"Error loading courses data: {e}")
     courses = []
 
+# Role mapping dictionary to handle variations
+role_mapping = {
+    "fullstack": "Full Stack Developer",
+    "full stack": "Full Stack Developer",
+    "full-stack": "Full Stack Developer",
+    "frontend": "Frontend Developer",
+    "front end": "Frontend Developer",
+    "front-end": "Frontend Developer",
+    "backend": "Backend Developer",
+    "back end": "Backend Developer",
+    "back-end": "Backend Developer",
+    "web developer": "Web Developer",
+    "webdev": "Web Developer",
+    "web dev": "Web Developer",
+    "data scientist": "Data Scientist",
+    "data analyst": "Data Analyst",
+    "dataanalyst": "Data Analyst",
+    "machine learning engineer": "Machine Learning Engineer",
+    "ml engineer": "Machine Learning Engineer",
+    "mlops engineer": "MLOps Engineer",
+    "devops engineer": "DevOps Engineer",
+    "cloud engineer": "Cloud Engineer",
+    "ui designer": "UI Designer",
+    "ux designer": "UX Designer",
+    "ui/ux designer": "UX Designer",
+    "product manager": "Product Manager",
+    "project manager": "Project Manager",
+    "software engineer": "Software Engineer",
+    "software developer": "Software Engineer",
+    "mobile developer": "Mobile Developer",
+    "ios developer": "Mobile Developer",
+    "android developer": "Mobile Developer",
+    "security analyst": "Security Analyst",
+    "cybersecurity analyst": "Security Analyst",
+    "database administrator": "Database Administrator",
+    "dba": "Database Administrator",
+    "network engineer": "Network Engineer",
+    "systems administrator": "Systems Administrator",
+    "sysadmin": "Systems Administrator",
+    "qa engineer": "QA Engineer",
+    "quality assurance engineer": "QA Engineer",
+    "technical writer": "Technical Writer",
+    "scrum master": "Scrum Master",
+    "solutions architect": "Solutions Architect",
+    "bi developer": "BI Developer",
+    "business analyst": "Business Analyst",
+    "data visualization specialist": "Data Visualization Specialist",
+    "hr manager": "HR Manager",
+    "financial analyst": "Financial Analyst",
+    "content manager": "Content Manager",
+    "sales manager": "Sales Manager",
+    "marketing manager": "Marketing Manager",
+    "game developer": "Game Developer",
+    "ai engineer": "AI Engineer",
+    "blockchain developer": "Blockchain Developer",
+    "iot developer": "IoT Developer",
+    "product designer": "Product Designer",
+    "research scientist": "Research Scientist",
+    "devrel engineer": "DevRel Engineer"
+}
+
 # Function to normalize role names for better matching
 def normalize_role(role_str):
     if not role_str or not isinstance(role_str, str):
@@ -35,6 +96,10 @@ def normalize_role(role_str):
     
     # Convert to lowercase and strip whitespace
     normalized = role_str.lower().strip()
+    
+    # Check if the role is in our mapping
+    if normalized in role_mapping:
+        return role_mapping[normalized].lower().strip()
     
     # Replace common variations
     normalized = normalized.replace("fullstack", "full stack")
@@ -45,6 +110,14 @@ def normalize_role(role_str):
     normalized = normalized.replace("back-end", "back end")
     normalized = normalized.replace("ui ux", "ui/ux")
     normalized = normalized.replace("ui/ux", "ui/ux")
+    normalized = normalized.replace("webdev", "web developer")
+    normalized = normalized.replace("web dev", "web developer")
+    normalized = normalized.replace("dataanalyst", "data analyst")
+    normalized = normalized.replace("ml engineer", "machine learning engineer")
+    normalized = normalized.replace("mlops engineer", "mlops engineer")
+    normalized = normalized.replace("dba", "database administrator")
+    normalized = normalized.replace("sysadmin", "systems administrator")
+    normalized = normalized.replace("qa engineer", "quality assurance engineer")
     
     return normalized
 
@@ -61,8 +134,20 @@ def extract_skills_from_title(job_title):
                 'skills': ['Python', 'Java', 'JavaScript', 'C++', 'C#', 'PHP', 'Ruby', 'Swift', 'Go', 'Rust', 'TypeScript']
             },
             'Web Development': {
-                'keywords': ['web', 'frontend', 'backend', 'fullstack', 'full stack'],
+                'keywords': ['web', 'frontend', 'front end', 'backend', 'back end', 'fullstack', 'full stack'],
                 'skills': ['HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Vue.js', 'Node.js', 'Express', 'Django', 'Flask']
+            },
+            'Frontend Development': {
+                'keywords': ['frontend', 'front end', 'ui', 'user interface'],
+                'skills': ['HTML', 'CSS', 'JavaScript', 'React', 'Angular', 'Vue.js', 'TypeScript', 'Responsive Design', 'Web Performance', 'UI Design']
+            },
+            'Backend Development': {
+                'keywords': ['backend', 'back end', 'server', 'api', 'database'],
+                'skills': ['Node.js', 'Express', 'Python', 'Java', 'C#', 'PHP', 'Ruby', 'SQL', 'NoSQL', 'API Design', 'Server Architecture']
+            },
+            'Full Stack Development': {
+                'keywords': ['fullstack', 'full stack', 'full-stack', 'both frontend and backend'],
+                'skills': ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'NoSQL', 'API Design', 'System Architecture']
             },
             'Data Science': {
                 'keywords': ['data', 'analytics', 'analyst', 'scientist', 'machine learning', 'ai'],
@@ -70,7 +155,7 @@ def extract_skills_from_title(job_title):
             },
             'Mobile Development': {
                 'keywords': ['mobile', 'ios', 'android', 'app'],
-                'skills': ['Swift', 'Kotlin', 'React Native', 'Flutter', 'Java', 'Objective-C']
+                'skills': ['Swift', 'Kotlin', 'React Native', 'Flutter', 'Java', 'Objective-C', 'Mobile UI', 'Mobile APIs']
             },
             'Cloud & DevOps': {
                 'keywords': ['cloud', 'devops', 'aws', 'azure', 'infrastructure'],
@@ -78,11 +163,11 @@ def extract_skills_from_title(job_title):
             },
             'Database': {
                 'keywords': ['database', 'db', 'sql', 'nosql'],
-                'skills': ['SQL', 'NoSQL', 'MongoDB', 'PostgreSQL', 'MySQL', 'Oracle', 'Redis']
+                'skills': ['SQL', 'NoSQL', 'MongoDB', 'PostgreSQL', 'MySQL', 'Oracle', 'Redis', 'Data Modeling']
             },
             'Design': {
                 'keywords': ['design', 'ui', 'ux', 'graphic', 'visual'],
-                'skills': ['Figma', 'Adobe XD', 'Sketch', 'Photoshop', 'Illustrator', 'UI Design', 'UX Design']
+                'skills': ['Figma', 'Adobe XD', 'Sketch', 'Photoshop', 'Illustrator', 'UI Design', 'UX Design', 'Prototyping']
             },
             'Management': {
                 'keywords': ['manager', 'management', 'lead', 'director', 'head'],
@@ -102,7 +187,7 @@ def extract_skills_from_title(job_title):
             },
             'Data Engineering': {
                 'keywords': ['data engineering', 'etl', 'pipeline', 'warehousing'],
-                'skills': ['ETL', 'Data Warehousing', 'Big Data', 'Spark', 'Hadoop', 'Data Pipeline']
+                'skills': ['ETL', 'Data Warehousing', 'Big Data', 'Spark', 'Hadoop', 'Data Pipeline', 'Data Modeling']
             },
             'Blockchain': {
                 'keywords': ['blockchain', 'cryptocurrency', 'smart contract', 'web3'],
@@ -110,19 +195,19 @@ def extract_skills_from_title(job_title):
             },
             'Game Development': {
                 'keywords': ['game', 'unity', 'unreal', 'gaming'],
-                'skills': ['Unity', 'Unreal Engine', 'Game Design', 'C#', 'C++', '3D Modeling']
+                'skills': ['Unity', 'Unreal Engine', 'Game Design', 'C#', 'C++', '3D Modeling', 'Game Physics']
             },
             'IoT': {
                 'keywords': ['iot', 'internet of things', 'embedded', 'sensor'],
-                'skills': ['IoT', 'Arduino', 'Raspberry Pi', 'Embedded Systems', 'Sensor Networks']
+                'skills': ['IoT', 'Arduino', 'Raspberry Pi', 'Embedded Systems', 'Sensor Networks', 'IoT Protocols']
             },
             'Cybersecurity': {
                 'keywords': ['cybersecurity', 'security', 'ethical hacking', 'penetration testing'],
-                'skills': ['Cybersecurity', 'Network Security', 'Ethical Hacking', 'Penetration Testing', 'Cryptography']
+                'skills': ['Cybersecurity', 'Network Security', 'Ethical Hacking', 'Penetration Testing', 'Cryptography', 'Security Protocols']
             },
             'Cloud Computing': {
                 'keywords': ['cloud computing', 'cloud', 'aws', 'azure', 'gcp'],
-                'skills': ['AWS', 'Azure', 'Google Cloud', 'Cloud Architecture', 'Serverless', 'Cloud Migration']
+                'skills': ['AWS', 'Azure', 'Google Cloud', 'Cloud Architecture', 'Serverless', 'Cloud Migration', 'Cloud Security']
             }
         }
         
@@ -157,6 +242,9 @@ def extract_skills_from_title(job_title):
         skill_hierarchy = {
             'Programming': ['Communication', 'Problem Solving'],
             'Web Development': ['Programming', 'Communication'],
+            'Frontend Development': ['Programming', 'Communication'],
+            'Backend Development': ['Programming', 'Communication'],
+            'Full Stack Development': ['Frontend Development', 'Backend Development', 'Communication'],
             'Data Science': ['Programming', 'Statistics', 'Communication'],
             'Mobile Development': ['Programming', 'Communication'],
             'Cloud & DevOps': ['Programming', 'Linux', 'Communication'],
@@ -199,6 +287,7 @@ def extract_skills_from_title(job_title):
                     # If skill not found in categories, assign basic dependencies
                     dependencies[skill] = [s for s in ['Communication', 'Problem Solving'] if s and s in matched_skills]
         
+        # Generate career progression
         progression = [
             f"Junior {job_title}",
             job_title,
@@ -327,6 +416,28 @@ def get_roadmap():
                     if normalized_role in normalized_job_role or normalized_job_role in normalized_role:
                         predefined_data = data
                         print(f"Found partial predefined data for: {job_role}")
+                        break
+        
+        # Special handling for specific roles that might not match exactly
+        if not predefined_data:
+            # Check if the role contains specific keywords
+            if "frontend" in normalized_role or "front end" in normalized_role:
+                for job_role in ["Frontend Developer", "Web Developer"]:
+                    if job_role in job_skills_data:
+                        predefined_data = job_skills_data[job_role]
+                        print(f"Matched to predefined data for: {job_role}")
+                        break
+            elif "backend" in normalized_role or "back end" in normalized_role:
+                for job_role in ["Backend Developer", "Web Developer"]:
+                    if job_role in job_skills_data:
+                        predefined_data = job_skills_data[job_role]
+                        print(f"Matched to predefined data for: {job_role}")
+                        break
+            elif "full stack" in normalized_role or "fullstack" in normalized_role:
+                for job_role in ["Full Stack Developer", "Web Developer"]:
+                    if job_role in job_skills_data:
+                        predefined_data = job_skills_data[job_role]
+                        print(f"Matched to predefined data for: {job_role}")
                         break
         
         if predefined_data:
